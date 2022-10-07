@@ -1,0 +1,37 @@
+Fixes: Oct 5, 2022
+- (bell & virgin) all totals works for all lines
+- (bell & virgin) on/off buttons for line 1 & 2
+- (bell & virgin) buttons for all toysls were removed
+- (bell & virgin) css updated for "all totals"
+- (Bell) fixed the math issue on offer 2 & 3
+-
+
+
+
+Fixes Needed:
+- (Bell & Virgin) pasive changes with "onchange" or "oninput"
+- (bell & virgin) length of total bar
+- copy changes done to bell over to bell
+- 
+
+
+
+Need to Add:
+- bell small bis Page
+    - button to the small biz page 
+        - on bell page only or both?
+    - Make sure there is a spot for for info
+        - staff member 
+        - custumer name 
+        - callback option
+        - phone number spot 
+    - 
+
+- 
+
+
+
+General Notes:
+- look at using oninput or onchange for all totals (posibly for everything)
+- look at making the line 1 get totals button do all 3 lines 
+- 

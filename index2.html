@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Virgin Plus</title>
+    </head>
+    <body>
+        <div class="virginall">
+            <div class="virginBox">
+                <h1 id="title" class="virgintitle">Virgin Plus: Line 1</h1>
+                <br>
+            
+                <label for="virginPhoneType">Phone:</label>
+                <input type="text" name="virginPhoneType" class="virginInfoBox" placeholder="What Phone?">
+                <label for="Data">Data:</label>
+                <input type="number" name="Data" class="virginInfoBox" placeholder="How Many gb?">
+                <br><br>
+                <label for="virginPhone">Phone Cost:</label>
+                <input type="number" name="virginPhone" id="virginPhone" value="0.00" class="virginFillBox">
+                <label for="virginPlan">Plan Cost:</label>
+                <input type="number" name="virginPlan" id="virginPlan" value="0.00" class="virginFillBox">
+                <br><br>
+
+                <label for="virginisc">ISC:</label>
+                <input type="number" name="virginisc" id="virginisc" value="0.00" class="virginFillBox">
+                <label for="virgindis">DIS:</label>
+                <input type="number" name="virgindis" id="virgindis" value="0.00" class="virginFillBox">
+                <br><br>
+                <label for="virginUpFront">Upfront Cost</label>
+                <input type="number" name="virginUpFront" id="virginUpFront" value="0.00" class="virginFillBox">
+                
+                <br>
+                <p class="virginDivide"></p>
+                <br>
+
+                
+                <label for="virgindp60">D/P 60:</label>
+                <input type="checkbox" name="virgindp60" id="virgindp60">
+                <br>
+                <label for="virgindp120">D/P 120:</label>
+                <input type="checkbox" name="virgindp120" id="virgindp120">
+                <br>
+                <label for="virgindp240">D/P 240:</label>
+                <input type="checkbox" name="virgindp240" id="virgindp240">
+                <br>
+                <label for="virgindp360">D/P 360:</label>
+                <input type="checkbox" name="virgindp360" id="virgindp360">
+                <br>
+                <label for="virginSpendGet">Send & Get:</label>
+                <input type="checkbox" name="virginSpendGet" id="virginSpendGet">
+                <br><br>
+
+                <label for="virginSecondline">Second Line</label>
+                <input type="number" name="virginSecondline" id="virginSecondline" value="0.00">
+                <br>
+                <label for="virginspc">SPC</label>
+                <input type="number" name="virginspc" id="virginspc" value="0.00">
+                <br><br>
+
+
+                <label for="virginoffer1">Offer 1:</label>
+                <input type="text" name="bell1OfferTitle1" placeholder="Offer Title">
+                <input type="number" name="virginoffer1" id="virginoffer1" value="0.00">
+                <br>
+                <label for="virginoffer2">Offer 2:</label>
+                <input type="text" name="bell1OfferTitle1" placeholder="Offer Title">
+                <input type="number" name="virginoffer2" id="virginoffer2" value="0.00">
+                <br>
+                <label for="virginoffer3">Offer 3:</label>
+                <input type="text" name="bell1OfferTitle1" placeholder="Offer Title">
+                <input type="number" name="virginoffer3" id="virginoffer3" value="0.00">
+
+
+                <br><br>
+                <div class="virgin-total-grid">
+                    <div class="virgin-grid-item">
+                    <p>Total/Month:</p>
+                    <p id="virginTotalBT">$0.00</p>
+                    </div>  
+                    <div class="virgin-grid-item">
+                    <p>Phone/Month:</p>
+                    <p id="virginPhonePerM">$0.00</p>
+                    </div>
+                    <div class="virgin-grid-item">
+                    <p>Total/Month After Tax:</p>
+                    <p id="virginTotalAT">$0.00</p>
+                    </div>
+                    <div class="virgin-grid-item">
+                    <p>Total to spend</p>
+                    <p id="virginLeftToSpend">$0.00</p>
+                    </div>
+                    <div class="virgin-grid-item">
+                        <p>Total Upfront</p>
+                        <p id="virginUpfrontTotal">$0.00</p>
+                        </div>
+                    <button onclick="getTotalsVirgin()" class="virgin-grid-button">Get Totals</button>
+                </div>
+            </div>
+
+
+            <div class="virgin2Box">
+                <h1 id="title" class="virgin2title">Virgin Plus: Line 2</h1>
+                <br>
+            
+                <label for="virgin2PhoneType">Phone:</label>
+                <input type="text" name="virgin2PhoneType" class="virgin2InfoBox" placeholder="What Phone?">
+                <label for="Data">Data:</label>
+                <input type="number" name="Data" class="virgin2InfoBox" placeholder="How Many gb?">
+                <br><br>
+                <label for="virgin2Phone">Phone Cost:</label>
+                <input type="number" name="virgin2Phone" id="virgin2Phone" value="0.00" class="virgin2FillBox">
+                <label for="virgin2Plan">Plan Cost:</label>
+                <input type="number" name="virgin2Plan" id="virgin2Plan" value="0.00" class="virgin2FillBox">
+                <br><br>
+
+                <label for="virgin2isc">ISC:</label>
+                <input type="number" name="virgin2isc" id="virgin2isc" value="0.00" class="virgin2FillBox">
+                <label for="virgin2dis">DIS:</label>
+                <input type="number" name="virgin2dis" id="virgin2dis" value="0.00" class="virgin2FillBox">
+                <br><br>
+                <label for="virgin2UpFront">Upfront Cost</label>
+                <input type="number" name="virgin2UpFront" id="virgin2UpFront" value="0.00" class="virgin2FillBox">
+                
+                <br>
+                <p class="virgin2Divide"></p>
+                <br>
+
+                
+                <label for="virgin2dp60">D/P 60:</label>
+                <input type="checkbox" name="virgin2dp60" id="virgin2dp60">
+                <br>
+                <label for="virgin2dp120">D/P 120:</label>
+                <input type="checkbox" name="virgin2dp120" id="virgin2dp120">
+                <br>
+                <label for="virgin2dp240">D/P 240:</label>
+                <input type="checkbox" name="virgin2dp240" id="virgin2dp240">
+                <br>
+                <label for="virgin2dp360">D/P 360:</label>
+                <input type="checkbox" name="virgin2dp360" id="virgin2dp360">
+                <br>
+                <label for="virgin2SpendGet">Send & Get:</label>
+                <input type="checkbox" name="virgin2SpendGet" id="virgin2SpendGet">
+                <br><br>
+
+                <label for="virgin2Secondline">Second Line</label>
+                <input type="number" name="virgin2Secondline" id="virgin2Secondline" value="0.00">
+                <br>
+                <label for="virgin2spc">SPC</label>
+                <input type="number" name="virgin2spc" id="virgin2spc" value="0.00">
+                <br><br>
+
+
+                <label for="virgin2offer1">Offer 1:</label>
+                <input type="text" name="bell1OfferTitle1" placeholder="Offer Title">
+                <input type="number" name="virgin2offer1" id="virgin2offer1" value="0.00">
+                <br>
+                <label for="virgin2offer2">Offer 2:</label>
+                <input type="text" name="bell1OfferTitle1" placeholder="Offer Title">
+                <input type="number" name="virgin2offer2" id="virgin2offer2" value="0.00">
+                <br>
+                <label for="virgin2offer3">Offer 3:</label>
+                <input type="text" name="bell1OfferTitle1" placeholder="Offer Title">
+                <input type="number" name="virgin2offer3" id="virgin2offer3" value="0.00">
+
+
+                <br><br>
+                <div class="virgin2-total-grid">
+                    <div class="virgin2-grid-item">
+                    <p>Total/Month:</p>
+                    <p id="virgin2TotalBT">$0.00</p>
+                    </div>  
+                    <div class="virgin2-grid-item">
+                    <p>Phone/Month:</p>
+                    <p id="virgin2PhonePerM">$0.00</p>
+                    </div>
+                    <div class="virgin2-grid-item">
+                    <p>Total/Month After Tax:</p>
+                    <p id="virgin2TotalAT">$0.00</p>
+                    </div>
+                    <div class="virgin2-grid-item">
+                    <p>Total to spend</p>
+                    <p id="virgin2LeftToSpend">$0.00</p>
+                    </div>
+                    <div class="virgin2-grid-item">
+                        <p>Total Upfront</p>
+                        <p id="virgin2UpfrontTotal">$0.00</p>
+                    </div>
+                    <div>
+                        <br><br>
+                        <label class = "virginonoff" for="virgin2on">include in totals?</label>
+                        <input class = "virginonoff" type="checkbox" name="virgin2on" id="virgin2on">
+                    </div>
+                </div>
+            </div>
+
+            <div class="virgin3Box">
+                <h1 id="title" class="virgin3title">Virgin Plus: Line 3</h1>
+                <br>
+            
+                <label for="virgin3PhoneType">Phone:</label>
+                <input type="text" name="virgin3PhoneType" class="virgin3InfoBox" placeholder="What Phone?">
+                <label for="Data">Data:</label>
+                <input type="number" name="Data" class="virgin3InfoBox" placeholder="How Many gb?">
+                <br><br>
+                <label for="virgin3Phone">Phone Cost:</label>
+                <input type="number" name="virgin3Phone" id="virgin3Phone" value="0.00" class="virgin3FillBox">
+                <label for="virgin3Plan">Plan Cost:</label>
+                <input type="number" name="virgin3Plan" id="virgin3Plan" value="0.00" class="virgin3FillBox">
+                <br><br>
+
+                <label for="virgin3isc">ISC:</label>
+                <input type="number" name="virgin3isc" id="virgin3isc" value="0.00" class="virgin3FillBox">
+                <label for="virgin3dis">DIS:</label>
+                <input type="number" name="virgin3dis" id="virgin3dis" value="0.00" class="virgin3FillBox">
+                <br><br>
+                <label for="virgin3UpFront">Upfront Cost</label>
+                <input type="number" name="virgin3UpFront" id="virgin3UpFront" value="0.00" class="virgin3FillBox">
+                
+                <br>
+                <p class="virgin3Divide"></p>
+                <br>
+
+                
+                <label for="virgin3dp60">D/P 60:</label>
+                <input type="checkbox" name="virgin3dp60" id="virgin3dp60">
+                <br>
+                <label for="virgin3dp120">D/P 120:</label>
+                <input type="checkbox" name="virgin3dp120" id="virgin3dp120">
+                <br>
+                <label for="virgin3dp240">D/P 240:</label>
+                <input type="checkbox" name="virgin3dp240" id="virgin3dp240">
+                <br>
+                <label for="virgin3dp360">D/P 360:</label>
+                <input type="checkbox" name="virgin3dp360" id="virgin3dp360">
+                <br>
+                <label for="virgin3SpendGet">Send & Get:</label>
+                <input type="checkbox" name="virgin3SpendGet" id="virgin3SpendGet">
+                <br><br>
+
+                <label for="virgin3Secondline">Second Line</label>
+                <input type="number" name="virgin3Secondline" id="virgin3Secondline" value="0.00">
+                <br>
+                <label for="virgin3spc">SPC</label>
+                <input type="number" name="virgin3spc" id="virgin3spc" value="0.00">
+                <br><br>
+
+
+                <label for="virgin3offer1">Offer 1:</label>
+                <input type="text" name="bell1OfferTitle1" placeholder="Offer Title">
+                <input type="number" name="virgin3offer1" id="virgin3offer1" value="0.00">
+                <br>
+                <label for="virgin3offer2">Offer 2:</label>
+                <input type="text" name="bell1OfferTitle1" placeholder="Offer Title">
+                <input type="number" name="virgin3offer2" id="virgin3offer2" value="0.00">
+                <br>
+                <label for="virgin3offer3">Offer 3:</label>
+                <input type="text" name="bell1OfferTitle1" placeholder="Offer Title">
+                <input type="number" name="virgin3offer3" id="virgin3offer3" value="0.00">
+
+
+                <br><br>
+                <div class="virgin3-total-grid">
+                    <div class="virgin3-grid-item">
+                    <p>Total/Month:</p>
+                    <p id="virgin3TotalBT">$0.00</p>
+                    </div>  
+                    <div class="virgin3-grid-item">
+                    <p>Phone/Month:</p>
+                    <p id="virgin3PhonePerM">$0.00</p>
+                    </div>
+                    <div class="virgin3-grid-item">
+                    <p>Total/Month After Tax:</p>
+                    <p id="virgin3TotalAT">$0.00</p>
+                    </div>
+                    <div class="virgin3-grid-item">
+                    <p>Total to spend</p>
+                    <p id="virgin3LeftToSpend">$0.00</p>
+                    </div>
+                    <div class="virgin3-grid-item">
+                        <p>Total Upfront</p>
+                        <p id="virgin3UpfrontTotal">$0.00</p>
+                    </div>
+                    <div>
+                        <br><br>
+                        <label class = "virginonoff" for="virgin3on">include in totals?</label>
+                        <input class = "virginonoff" type="checkbox" name="virgin3on" id="virgin3on">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="virgin-all-total-grid">
+            <div class="virgin-all-grid-item">
+                <p>Total/Month:</p>
+                <p id="virginallTotalBT">$0.00</p>
+            </div>  
+            <div class="virgin-all-grid-item">
+                <p>Phone/Month:</p>
+                <p id="virginallPhonePerM">$0.00</p>
+            </div>
+            <div class="virgin-all-grid-item">
+                <p>Total/Month After Tax:</p>
+                <p id="virginallTotalAT">$0.00</p>
+            </div>
+            <div class="virgin-all-grid-item">
+                <p>Total to spend</p>
+                <p id="virginallLeftToSpend">$0.00</p>
+            </div>
+        </div>
+        
+    </div>
+
+
+        </div>
+
+        <br>
+        <button onclick="bellPage()" class="bell-button">Bell</button>
+
+        <div>crash code:</div>
+        <div id="tester"></div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>

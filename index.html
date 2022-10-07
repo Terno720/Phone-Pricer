@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bell Mobility</title>
+</head>
+<body>
+    <div class="bellall">
+        <div class="bellBox">
+            <h1 id="title" class="belltitle">Bell Mobility: Line 1</h1>
+            <br>
+
+            <label for="bellPhoneType">Phone:</label>
+            <input type="text" name="bellPhoneType" class="bellInfoBox" placeholder="What Phone?">
+            <label for="Data">Data:</label>
+            <input type="text" name="Data" class="bellInfoBox" placeholder="How Many gb?">
+            <br><br>
+            <label for="bellPhone">Phone Cost:</label>
+            <input type="number" name="bellPhone" id="bellPhone" value="0.00" class="BellFillBox">
+            <label for="bellPlan">Plan Cost:</label>
+            <input type="number" name="bellPlan" id="bellPlan" value="0.00" class="BellFillBox">
+            <br><br>
+
+
+            <label for="bellisc">ISC:</label>
+            <input type="number" name="bellisc" id="bellisc" value="0.00" class="BellFillBox">
+            <label for="belldis">Discretionary:</label>
+            <input type="number" name="belldis" id="belldis" value="0.00" class="BellFillBox">
+            <br>
+            
+            <br>
+            <p class="bellDivide"></p>
+            <br>
+
+            
+            <label for="belldp60">D/P 60:</label>
+            <input type="checkbox" name="belldp60" id="belldp60">
+            <br>
+            <label for="belldp120">D/P 120:</label>
+            <input type="checkbox" name="belldp120" id="belldp120">
+            <br>
+            <label for="belldp240">D/P 240:</label>
+            <input type="checkbox" name="belldp240" id="belldp240">
+            <br>
+            <label for="belldp360">D/P 360:</label>
+            <input type="checkbox" name="belldp360" id="belldp360">
+            <br>
+            <label for="bellSpendGet">Send & Get:</label>
+            <input type="checkbox" name="bellSpendGet" id="bellSpendGet">
+            <br><br>
+
+            <br>
+            <label for="bellspc">SPC</label>
+            <input type="number" name="bellspc" id="bellspc" value="0.00">
+            <br><br>
+
+
+            <label for="belloffer1">Offer 1:</label>
+            <input type="text" name="bell1OfferTitle1" placeholder="Offer Title">
+            <input type="number" name="belloffer1" id="belloffer1" value="0.00">
+            <br>
+            <label for="belloffer2">Offer 2:</label>
+            <input type="text" name="bell1OfferTitle1" placeholder="Offer Title">
+            <input type="number" name="belloffer2" id="belloffer2" value="0.00">
+            <br>
+            <label for="belloffer3">Offer 3:</label>
+            <input type="text" name="bell1OfferTitle1" placeholder="Offer Title">
+            <input type="number" name="belloffer3" id="belloffer3" value="0.00">
+
+
+            <br><br>
+            <div class="bell-total-grid">
+                <div class="bell-grid-item">
+                <p>Total/Month:</p>
+                <p id="bellTotalBT">$0.00</p>
+                </div>  
+                <div class="bell-grid-item">
+                <p>Phone/Month:</p>
+                <p id="bellPhonePerM">$0.00</p>
+                </div>
+                <div class="bell-grid-item">
+                <p>Total/Month After Tax:</p>
+                <p id="bellTotalAT">$0.00</p>
+                </div>
+                <div class="bell-grid-item">
+                <p>Total to spend</p>
+                <p id="bellLeftToSpend" style="color: black;">$0.00</p>
+                </div>
+                <button onclick="getTotalsBell()" class="bell-grid-button">Get Totals</button>
+            </div>
+        </div>
+        <div class="bell2Box">
+            <h1 id="title" class="bell2title">Bell Mobility: Line 2</h1>
+            <br>
+
+            <label for="bell2PhoneType">Phone:</label>
+            <input type="text" name="bell2PhoneType" class="bell2InfoBox" placeholder="What Phone?">
+            <label for="Data">Data:</label>
+            <input type="text" name="Data" class="bell2InfoBox" placeholder="How Many gb?">
+            <br><br>
+            <label for="bell2Phone">Phone Cost:</label>
+            <input type="number" name="bell2Phone" id="bell2Phone" value="0.00" class="Bell2FillBox">
+            <label for="bell2Plan">Plan Cost:</label>
+            <input type="number" name="bell2Plan" id="bell2Plan" value="0.00" class="Bell2FillBox">
+            <br><br>
+
+
+            <label for="bell2isc">ISC:</label>
+            <input type="number" name="bell2isc" id="bell2isc" value="0.00" class="Bell2FillBox">
+            <label for="bell2dis">Discretionary:</label>
+            <input type="number" name="bell2dis" id="bell2dis" value="0.00" class="Bell2FillBox">
+            <br>
+            
+            <br>
+            <p class="bell2Divide"></p>
+            <br>
+
+            
+            <label for="bell2dp60">D/P 60:</label>
+            <input type="checkbox" name="bell2dp60" id="bell2dp60">
+            <br>
+            <label for="bell2dp120">D/P 120:</label>
+            <input type="checkbox" name="bell2dp120" id="bell2dp120">
+            <br>
+            <label for="bell2dp240">D/P 240:</label>
+            <input type="checkbox" name="bell2dp240" id="bell2dp240">
+            <br>
+            <label for="bell2dp360">D/P 360:</label>
+            <input type="checkbox" name="bell2dp360" id="bell2dp360">
+            <br>
+            <label for="bell2SpendGet">Send & Get:</label>
+            <input type="checkbox" name="bell2SpendGet" id="bell2SpendGet">
+            <br><br>
+
+            <label for="bell2Secondline">Second Line</label>
+            <input type="number" name="bell2Secondline" id="bell2Secondline" value="0.00">
+            <br>
+            <label for="bell2spc">SPC</label>
+            <input type="number" name="bell2spc" id="bell2spc" value="0.00">
+            <br><br>
+
+
+            <label for="bell2offer1">Offer 1:</label>
+            <input type="text" name="bell1OfferTitle1" placeholder="Offer Title">
+            <input type="number" name="bell2offer1" id="bell2offer1" value="0.00">
+            <br>
+            <label for="bell2offer2">Offer 2:</label>
+            <input type="text" name="bell1OfferTitle1" placeholder="Offer Title">
+            <input type="number" name="bell2offer2" id="bell2offer2" value="0.00">
+            <br>
+            <label for="bell2offer3">Offer 3:</label>
+            <input type="text" name="bell1OfferTitle1" placeholder="Offer Title">
+            <input type="number" name="bell2offer3" id="bell2offer3" value="0.00">
+
+
+            <br><br>
+            <div class="bell2-total-grid">
+                <div class="bell2-grid-item">
+                <p>Total/Month:</p>
+                <p id="bell2TotalBT">$0.00</p>
+                </div>  
+                <div class="bell2-grid-item">
+                <p>Phone/Month:</p>
+                <p id="bell2PhonePerM">$0.00</p>
+                </div>
+                <div class="bell2-grid-item">
+                <p>Total/Month After Tax:</p>
+                <p id="bell2TotalAT">$0.00</p>
+                </div>
+                <div class="bell2-grid-item">
+                <p>Total to spend</p>
+                <p id="bell2LeftToSpend" style="color: black;">$0.00</p>
+                </div>
+            </div>
+            <br>
+            <label for="bell2on">include in totals?</label>
+            <input type="checkbox" name="bell2on" id="bell2on">
+        </div>
+        
+        <div class="bell3Box">
+            <h1 id="title" class="bell3title">Bell Mobility: Line 3</h1>
+            <br>
+
+            <label for="bell3PhoneType">Phone:</label>
+            <input type="text" name="bell3PhoneType" class="bell3InfoBox" placeholder="What Phone?">
+            <label for="Data">Data:</label>
+            <input type="text" name="Data" class="bell3InfoBox" placeholder="How Many gb?">
+            <br><br>
+            <label for="bell3Phone">Phone Cost:</label>
+            <input type="number" name="bell3Phone" id="bell3Phone" value="0.00" class="Bell3FillBox">
+            <label for="bell3Plan">Plan Cost:</label>
+            <input type="number" name="bell3Plan" id="bell3Plan" value="0.00" class="Bell3FillBox">
+            <br><br>
+
+
+            <label for="bell3isc">ISC:</label>
+            <input type="number" name="bell3isc" id="bell3isc" value="0.00" class="Bell3FillBox">
+            <label for="bell3dis">Discretionary:</label>
+            <input type="number" name="bell3dis" id="bell3dis" value="0.00" class="Bell3FillBox">
+            <br>
+            
+            <br>
+            <p class="bell3Divide"></p>
+            <br>
+
+            
+            <label for="bell3dp60">D/P 60:</label>
+            <input type="checkbox" name="bell3dp60" id="bell3dp60">
+            <br>
+            <label for="bell3dp120">D/P 120:</label>
+            <input type="checkbox" name="bell3dp120" id="bell3dp120">
+            <br>
+            <label for="bell3dp240">D/P 240:</label>
+            <input type="checkbox" name="bell3dp240" id="bell3dp240">
+            <br>
+            <label for="bell3dp360">D/P 360:</label>
+            <input type="checkbox" name="bell3dp360" id="bell3dp360">
+            <br>
+            <label for="bell3SpendGet">Send & Get:</label>
+            <input type="checkbox" name="bell3SpendGet" id="bell3SpendGet">
+            <br><br>
+
+            <label for="bell3Secondline">Second Line</label>
+            <input type="number" name="bell3Secondline" id="bell3Secondline" value="0.00">
+            <br>
+            <label for="bell3spc">SPC</label>
+            <input type="number" name="bell3spc" id="bell3spc" value="0.00">
+            <br><br>
+
+
+            <label for="bell3offer1">Offer 1:</label>
+            <input type="text" name="bell1OfferTitle1" placeholder="Offer Title">
+            <input type="number" name="bell3offer1" id="bell3offer1" value="0.00">
+            <br>
+            <label for="bell3offer2">Offer 2:</label>
+            <input type="text" name="bell1OfferTitle1" placeholder="Offer Title">
+            <input type="number" name="bell3offer2" id="bell3offer2" value="0.00">
+            <br>
+            <label for="bell3offer3">Offer 3:</label>
+            <input type="text" name="bell1OfferTitle1" placeholder="Offer Title">
+            <input type="number" name="bell3offer3" id="bell3offer3" value="0.00">
+
+
+            <br><br>
+            <div class="bell3-total-grid">
+                <div class="bell3-grid-item">
+                <p>Total/Month:</p>
+                <p id="bell3TotalBT">$0.00</p>
+                </div>  
+                <div class="bell3-grid-item">
+                <p>Phone/Month:</p>
+                <p id="bell3PhonePerM">$0.00</p>
+                </div>
+                <div class="bell3-grid-item">
+                <p>Total/Month After Tax:</p>
+                <p id="bell3TotalAT">$0.00</p>
+                </div>
+                <div class="bell3-grid-item">
+                <p>Total to spend</p>
+                <p id="bell3LeftToSpend" style="color: black;">$0.00</p>
+                </div>
+            </div>
+
+            <br>
+            <label for="bell3on">include in totals?</label>
+            <input type="checkbox" name="bell3on" id="bell3on">
+        
+        </div>
+
+        
+        </div>
+    
+    
+    </div>
+        <div class="bell-all-total-grid">
+            <div class="bell-all-grid-item">
+                <p>Total/Month:</p>
+                <p id="bellallTotalBT">$0.00</p>
+            </div>  
+            <div class="bell-all-grid-item">
+                <p>Phone/Month:</p>
+                <p id="bellallPhonePerM">$0.00</p>
+            </div>
+            <div class="bell-all-grid-item">
+                <p>Total/Month After Tax:</p>
+                <p id="bellallTotalAT">$0.00</p>
+            </div>
+            <div class="bell-all-grid-item">
+                <p>Total to spend</p>
+                <p id="bellallLeftToSpend">$0.00</p>
+            </div>
+        </div>
+        
+    </div>
+
+   
+    <br>
+    <button onclick="virginPage()" class="virgin-button">Virgin</button>
+    
+    <div>crash code:</div>
+    <div id="tester"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,341 @@
+.belltitle{
+    color: blue;
+    border: 3px dashed blue;
+    width: fit-content;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+.bellDivide{
+    border: 3px dashed;
+    height: 0;
+    color: blue;
+}
+.bell-total-grid{
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: 1fr 1fr;
+    width: 400px;
+}
+.bell-grid-item{
+    border: 2px solid black;
+    padding: 0 0 0 30px;
+}
+.bell-grid-button{
+    grid-column: span 2;
+    padding: 5px;
+    margin: 5px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+.bell-button{
+    background-color: blue;
+    font-weight: bold;
+    height: 40px;
+    width: 80px;
+    color: white;
+}
+.bellBox {
+    border: 5px solid blue;
+    padding: 10px;
+    width: 410px;
+}
+.BellFillBox{
+    width: 70px;
+}
+.bellInfoBox{
+    width: 100px;
+}
+
+
+
+.bell2title{
+    color: blue;
+    border: 3px dashed blue;
+    width: fit-content;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+.bell2Divide{
+    border: 3px dashed;
+    height: 0;
+    color: blue;
+}
+.bell2-total-grid{
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: 1fr 1fr;
+    width: 400px;
+}
+.bell2-grid-item{
+    border: 2px solid black;
+    padding: 0 0 0 30px;
+}
+.bell2-grid-button{
+    grid-column: span 2;
+    padding: 5px;
+    margin: 5px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+.bell2-button{
+    background-color: blue;
+    font-weight: bold;
+    height: 40px;
+    width: 80px;
+    color: white;
+}
+.bell2Box {
+    border: 5px solid blue;
+    padding: 10px;
+    width: 410px;
+}
+.Bell2FillBox{
+    width: 70px;
+}
+.bell2InfoBox{
+    width: 100px;
+}
+
+
+.bell3title{
+    color: blue;
+    border: 3px dashed blue;
+    width: fit-content;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+.bell3Divide{
+    border: 3px dashed;
+    height: 0;
+    color: blue;
+}
+.bell3-total-grid{
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: 1fr 1fr;
+    width: 400px;
+}
+.bell3-grid-item{
+    border: 2px solid black;
+    padding: 0 0 0 30px;
+}
+.bell3-grid-button{
+    grid-column: span 2;
+    padding: 5px;
+    margin: 5px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+.bell3-button{
+    background-color: blue;
+    font-weight: bold;
+    height: 40px;
+    width: 80px;
+    color: white;
+}
+.bell3Box {
+    border: 5px solid blue;
+    padding: 10px;
+    width: 410px;
+}
+.Bell3FillBox{
+    width: 70px;
+}
+.bell3InfoBox{
+    width: 100px;
+}
+
+
+
+
+.virgintitle{
+    color: red;
+    border: 3px dashed red;
+    width: fit-content;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+.virginDivide{
+    border: 3px dashed;
+    height: 0;
+    color: red;
+}
+.virgin-button{
+    background-color: red;
+    font-weight: bold;
+    height: 40px;
+    width: 80px;
+    color: white;
+}
+.virgin-total-grid{
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: 1fr 1fr;
+    width: 400px;
+}
+.virgin-grid-item{
+    border: 2px solid black;
+    padding: 0 0 0 30px;
+}
+.virgin-grid-button{
+    grid-column: span 1;
+    padding: 5px;
+    margin: 5px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.virginBox {
+    border: 5px solid red;
+    padding: 10px;
+    width: 410px;
+}
+.virginFillBox{
+    width: 90px;
+}
+.virginInfoBox{
+    width: 100px;
+}
+
+
+
+.virgin2title{
+    color: red;
+    border: 3px dashed red;
+    width: fit-content;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+.virgin2Divide{
+    border: 3px dashed;
+    height: 0;
+    color: red;
+}
+.virgin2-button{
+    background-color: red;
+    font-weight: bold;
+    height: 40px;
+    width: 80px;
+    color: white;
+}
+.virgin2-total-grid{
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: 1fr 1fr;
+    width: 400px;
+}
+.virgin2-grid-item{
+    border: 2px solid black;
+    padding: 0 0 0 30px;
+}
+.virgin2-grid-button{
+    grid-column: span 1;
+    padding: 5px;
+    margin: 5px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.virgin2Box {
+    border: 5px solid red;
+    padding: 10px;
+    width: 410px;
+}
+.virgin2FillBox{
+    width: 90px;
+}
+.virgin2InfoBox{
+    width: 100px;
+}
+
+
+
+
+.virgin3title{
+    color: red;
+    border: 3px dashed red;
+    width: fit-content;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+.virgin3Divide{
+    border: 3px dashed;
+    height: 0;
+    color: red;
+}
+.virgin3-button{
+    background-color: red;
+    font-weight: bold;
+    height: 40px;
+    width: 80px;
+    color: white;
+}
+.virgin3-total-grid{
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: 1fr 1fr;
+    width: 400px;
+}
+.virgin3-grid-item{
+    border: 2px solid black;
+    padding: 0 0 0 30px;
+}
+.virgin3-grid-button{
+    grid-column: span 1;
+    padding: 5px;
+    margin: 5px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.virgin3Box {
+    border: 5px solid red;
+    padding: 10px;
+    width: 410px;
+}
+.virgin3FillBox{
+    width: 90px;
+}
+.virgin3InfoBox{
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.bellall{
+    display: flex;
+}
+.virginall{
+    display: flex;
+}
+.bell-all-total-grid{
+    display: flex;
+    width: 1230px;
+}
+.bell-all-grid-item{
+    width: 800px;
+    border: 2px solid blue;
+}
+
+.virgin-all-total-grid{
+    display: flex;
+    width: 1230px;
+}
+.virgin-all-grid-item{
+    width: 800px;
+    border: 2px solid red;
+}
