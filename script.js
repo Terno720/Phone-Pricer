@@ -313,7 +313,7 @@ function getTotalsBell() {
 
 
     //----------------------------------------------------------
-    test = document.getElementById("tester").innerText = "Ran Full Code"
+    test = document.getElementById("tester").innerText = "Code Ran Successfully"
     //----------------------------------------------------------
 
 }
@@ -322,33 +322,49 @@ function getTotalsBell() {
 
 //Virgin Line 1
 function getTotalsVirgin() {
+    let test = document.getElementById("vtester").innerText
+
+    //----------------------------------------------------------
+    test = document.getElementById("vtester").innerText = "stop 0"
+    //----------------------------------------------------------
+
     let virginPhone = document.getElementById("virginPhone").value;
     let virginPlan = document.getElementById("virginPlan").value;
     let virginisc = document.getElementById("virginisc").value;
     let virgindis = document.getElementById("virgindis").value;
-    let virginSecondLine = document.getElementById("virginSecondline").value;
     let virginspc = document.getElementById("virginspc").value;
     let virginOffer1 = document.getElementById("virginoffer1").value;
     let virginOffer2 = document.getElementById("virginoffer2").value;
     let virginOffer3 = document.getElementById("virginoffer3").value;
     let virginUPfront = document.getElementById("virginUpFront").value;
 
+    //----------------------------------------------------------
+    test = document.getElementById("vtester").innerText = "stop 1"
+    //----------------------------------------------------------
+
     virginPhone = parseFloat(virginPhone);
     virginPlan = parseFloat(virginPlan);
     virginisc = parseFloat(virginisc);
     virgindis = parseFloat(virgindis);
-    virginSecondLine = parseFloat(virginSecondLine);
     virginspc = parseFloat(virginspc);
     virginOffer1 = parseFloat(virginOffer1);
     virginOffer2 = parseFloat(virginOffer2);
     virginOffer3 = parseFloat(virginOffer3);
     virginUPfront = parseFloat(virginUPfront);
 
+    //----------------------------------------------------------
+    test = document.getElementById("vtester").innerText = "stop 2"
+    //----------------------------------------------------------
+
     let virgindp60 = document.getElementById("virgindp60").checked;
     let virgindp120 = document.getElementById("virgindp120").checked;
     let virgindp240 = document.getElementById("virgindp240").checked;
     let virgindp360 = document.getElementById("virgindp360").checked;
     let virginSpendGet = document.getElementById("virginSpendGet").checked;
+
+    //----------------------------------------------------------
+    test = document.getElementById("vtester").innerText = "stop 3"
+    //----------------------------------------------------------
 
     let virginDisc60 = 0;
     let virginDisc120 = 0;
@@ -390,8 +406,12 @@ function getTotalsVirgin() {
         } 
     }
 
+    //----------------------------------------------------------
+    test = document.getElementById("vtester").innerText = "stop 4"
+    //----------------------------------------------------------
 
-    let virginTotalBT = virginPhone + virginPlan + virginDisc60 + virginDisc120 + virginDisc240 + virginDisc360 + virginSG + virginSecondLine + virginspc + virginOffer1 + virginOffer2 + virginOffer3 + 0.95;
+
+    let virginTotalBT = virginPhone + virginPlan + virginDisc60 + virginDisc120 + virginDisc240 + virginDisc360 + virginSG + virginspc + virginOffer1 + virginOffer2 + virginOffer3 + 0.95;
     let virginTotalAT = virginTotalBT + (virginTotalBT * 0.05);
     let virginPhonePerM = virginPhone + virginDisc60 + virginDisc120 + virginDisc240 + virginDisc360 + virginSG;
     let virginLeftToSpend = virginTotalSpend;
@@ -401,6 +421,10 @@ function getTotalsVirgin() {
     document.getElementById("virginPhonePerM").innerHTML = "$" + virginPhonePerM.toFixed(2);
     document.getElementById("virginLeftToSpend").innerHTML = "$" + virginLeftToSpend.toFixed(2);
     document.getElementById("virginUpfrontTotal").innerHTML = "$" + virginUPfront.toFixed(2);
+
+    //----------------------------------------------------------
+    test = document.getElementById("vtester").innerText = "stop 5"
+    //----------------------------------------------------------
 
     // line 2 v
     let virgin2Phone = document.getElementById("virgin2Phone").value;
@@ -414,6 +438,10 @@ function getTotalsVirgin() {
     let virgin2Offer2 = document.getElementById("virgin2offer2").value;
     let virgin2Offer3 = document.getElementById("virgin2offer3").value;
     let virgin2UPfront = document.getElementById("virgin2UpFront").value;
+
+    //----------------------------------------------------------
+    test = document.getElementById("vtester").innerText = "stop 6"
+    //----------------------------------------------------------
 
     virgin2Phone = parseFloat(virgin2Phone);
     virgin2Plan = parseFloat(virgin2Plan);
@@ -431,6 +459,10 @@ function getTotalsVirgin() {
     let virgin2dp240 = document.getElementById("virgin2dp240").checked;
     let virgin2dp360 = document.getElementById("virgin2dp360").checked;
     let virgin2SpendGet = document.getElementById("virgin2SpendGet").checked;
+
+    //----------------------------------------------------------
+    test = document.getElementById("vtester").innerText = "stop 7"
+    //----------------------------------------------------------
 
     let virgin2Disc60 = 0;
     let virgin2Disc120 = 0;
@@ -472,6 +504,10 @@ function getTotalsVirgin() {
         } 
     }
 
+    //----------------------------------------------------------
+    test = document.getElementById("vtester").innerText = "stop 8"
+    //----------------------------------------------------------
+
 
     let virgin2TotalBT = virgin2Phone + virgin2Plan + virgin2Disc60 + virgin2Disc120 + virgin2Disc240 + virgin2Disc360 + virgin2SG + virgin2SecondLine + virgin2spc + virgin2Offer1 + virgin2Offer2 + virgin2Offer3 + 0.95;
     let virgin2TotalAT = virgin2TotalBT + (virgin2TotalBT * 0.05);
@@ -483,6 +519,10 @@ function getTotalsVirgin() {
     document.getElementById("virgin2PhonePerM").innerHTML = "$" + virgin2PhonePerM.toFixed(2);
     document.getElementById("virgin2LeftToSpend").innerHTML = "$" + virgin2LeftToSpend.toFixed(2);
     document.getElementById("virgin2UpfrontTotal").innerHTML = "$" + virgin2UPfront.toFixed(2);
+
+    //----------------------------------------------------------
+    test = document.getElementById("vtester").innerText = "stop 9"
+    //----------------------------------------------------------
 
     //line 3 v
     let virgin3Phone = document.getElementById("virgin3Phone").value;
@@ -496,6 +536,10 @@ function getTotalsVirgin() {
     let virgin3Offer2 = document.getElementById("virgin3offer2").value;
     let virgin3Offer3 = document.getElementById("virgin3offer3").value;
     let virgin3UPfront = document.getElementById("virgin3UpFront").value;
+
+    //----------------------------------------------------------
+    test = document.getElementById("vtester").innerText = "stop 10"
+    //----------------------------------------------------------
 
     virgin3Phone = parseFloat(virgin3Phone);
     virgin3Plan = parseFloat(virgin3Plan);
@@ -513,6 +557,10 @@ function getTotalsVirgin() {
     let virgin3dp240 = document.getElementById("virgin3dp240").checked;
     let virgin3dp360 = document.getElementById("virgin3dp360").checked;
     let virgin3SpendGet = document.getElementById("virgin3SpendGet").checked;
+
+    //----------------------------------------------------------
+    test = document.getElementById("vtester").innerText = "stop 11"
+    //----------------------------------------------------------
 
     let virgin3Disc60 = 0;
     let virgin3Disc120 = 0;
@@ -554,6 +602,10 @@ function getTotalsVirgin() {
         } 
     }
 
+    //----------------------------------------------------------
+    test = document.getElementById("vtester").innerText = "stop 12"
+    //----------------------------------------------------------
+
 
     let virgin3TotalBT = virgin3Phone + virgin3Plan + virgin3Disc60 + virgin3Disc120 + virgin3Disc240 + virgin3Disc360 + virgin3SG + virgin3SecondLine + virgin3spc + virgin3Offer1 + virgin3Offer2 + virgin3Offer3 + 0.95;
     let virgin3TotalAT = virgin3TotalBT + (virgin3TotalBT * 0.05);
@@ -570,6 +622,10 @@ function getTotalsVirgin() {
 
     let virgin2on = document.getElementById("virgin2on").checked;
     let virgin3on = document.getElementById("virgin3on").checked;
+
+    //----------------------------------------------------------
+    test = document.getElementById("vtester").innerText = "stop 13"
+    //----------------------------------------------------------
 
     let newVirgin2BT = virgin2TotalBT;
     let newVirgin2AT = virgin2TotalAT;
@@ -604,6 +660,10 @@ function getTotalsVirgin() {
     document.getElementById("virginallTotalAT").innerText = "$" + virginallAT.toFixed(2);
     document.getElementById("virginallPhonePerM").innerText = "$" + virginallPhonePer.toFixed(2);
     document.getElementById("virginallLeftToSpend").innerText = "$" + virginallspendget.toFixed(2);
+
+    //----------------------------------------------------------
+    test = document.getElementById("vtester").innerText = "Code Ran Successfully"
+    //----------------------------------------------------------
 
 }
 

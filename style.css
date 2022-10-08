@@ -193,6 +193,7 @@
     border: 5px solid red;
     padding: 10px;
     width: 410px;
+    border-radius: 5px;
 }
 .virginFillBox{
     width: 90px;
@@ -245,6 +246,7 @@
     border: 5px solid red;
     padding: 10px;
     width: 410px;
+    border-radius: 5px;
 }
 .virgin2FillBox{
     width: 90px;
@@ -298,6 +300,7 @@
     border: 5px solid red;
     padding: 10px;
     width: 410px;
+    border-radius: 5px;
 }
 .virgin3FillBox{
     width: 90px;
