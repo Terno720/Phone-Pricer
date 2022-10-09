@@ -1,18 +1,20 @@
-Fixes: Oct 5, 2022
+Fixes: Oct 9, 2022
 - (bell & virgin) all totals works for all lines
 - (bell & virgin) on/off buttons for line 1 & 2
 - (bell & virgin) buttons for all toysls were removed
 - (bell & virgin) css updated for "all totals"
 - (Bell) fixed the math issue on offer 2 & 3
--
+- alignment of the  boxes due to the date 
+- size of input boxes for the offers 
+- copy changes done to bell over to virgin
+- (bell & virgin) length of total bar
+
 
 
 
 Fixes Needed:
 - (Bell & Virgin) pasive changes with "onchange" or "oninput"
-- (bell & virgin) length of total bar
-- copy changes done to bell over to bell
-- 
+
 
 
 
