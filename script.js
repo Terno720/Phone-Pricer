@@ -677,4 +677,6 @@ function virginPage() {
 function bellPage() {
     window.location.href="index.html"
 }
-
+function BellSmallBiz() {
+    window.location.href="index3.html"
+}

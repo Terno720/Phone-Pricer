@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="smallBis.css">
+    <title>Bell Small bis</title>
+</head>
+<body>
+    <div class="bellSmallBizall">
+        <div class="bellSmallBizBox">
+            <label for="date">Date: </label><input type="text" name="date" placeholder="Today's Date:">
+            <h1 id="title" class="bellSmallBiztitle">BellSmallBiz Mobility: Line 1</h1>
+            <br>
+
+            <label for="bellSmallBizPhoneType">Phone:</label>
+            <input type="text" name="bellSmallBizPhoneType" class="bellSmallBizInfoBox" placeholder="What Phone?">
+            <label for="Data">Data:</label>
+            <input type="text" name="Data" class="bellSmallBizInfoBox" placeholder="How Many gb?">
+            <br><br>
+            <label for="bellSmallBizPhone">Phone Cost:</label>
+            <input type="number" name="bellSmallBizPhone" id="bellSmallBizPhone" value="0.00" class="BellSmallBizFillBox">
+            <label for="bellSmallBizPlan">Plan Cost:</label>
+            <input type="number" name="bellSmallBizPlan" id="bellSmallBizPlan" value="0.00" class="BellSmallBizFillBox">
+            <br><br>
+
+
+            <label for="bellSmallBizisc">ISC:</label>
+            <input type="number" name="bellSmallBizisc" id="bellSmallBizisc" value="0.00" class="BellSmallBizFillBox">
+            <label for="bellSmallBizdis">Discretionary:</label>
+            <input type="number" name="bellSmallBizdis" id="bellSmallBizdis" value="0.00" class="BellSmallBizFillBox">
+            <br>
+            
+            <br>
+            <p class="bellSmallBizDivide"></p>
+            <br>
+
+            
+            <label for="bellSmallBizdp60">D/P 60:</label>
+            <input type="checkbox" name="bellSmallBizdp60" id="bellSmallBizdp60">
+            <br>
+            <label for="bellSmallBizdp120">D/P 120:</label>
+            <input type="checkbox" name="bellSmallBizdp120" id="bellSmallBizdp120">
+            <br>
+            <label for="bellSmallBizdp240">D/P 240:</label>
+            <input type="checkbox" name="bellSmallBizdp240" id="bellSmallBizdp240">
+            <br>
+            <label for="bellSmallBizdp360">D/P 360:</label>
+            <input type="checkbox" name="bellSmallBizdp360" id="bellSmallBizdp360">
+            <br>
+            <label for="bellSmallBizSpendGet">Send & Get:</label>
+            <input type="checkbox" name="bellSmallBizSpendGet" id="bellSmallBizSpendGet">
+            <br><br>
+
+            <br>
+            <label for="bellSmallBizspc">SPC</label>
+            <input type="number" name="bellSmallBizspc" id="bellSmallBizspc" value="0.00">
+            <br><br>
+
+
+            <label for="bellSmallBizoffer1">Offer 1:</label>
+            <input class="titleBox" type="text" name="bellSmallBiz1OfferTitle1" placeholder="Offer Title">
+            <input class="offerbox" type="number" name="bellSmallBizoffer1" id="bellSmallBizoffer1" value="0.00">
+            <br>
+            <label for="bellSmallBizoffer2">Offer 2:</label>
+            <input class="titleBox" type="text" name="bellSmallBiz1OfferTitle1" placeholder="Offer Title">
+            <input class="offerbox" type="number" name="bellSmallBizoffer2" id="bellSmallBizoffer2" value="0.00">
+            <br>
+            <label for="bellSmallBizoffer3">Offer 3:</label>
+            <input class="titleBox" type="text" name="bellSmallBiz1OfferTitle1" placeholder="Offer Title">
+            <input class="offerbox" type="number" name="bellSmallBizoffer3" id="bellSmallBizoffer3" value="0.00">
+
+
+            <br><br>
+            <div class="bellSmallBiz-total-grid">
+                <div class="bellSmallBiz-grid-item">
+                <p>Total/Month:</p>
+                <p id="bellSmallBizTotalBT">$0.00</p>
+                </div>  
+                <div class="bellSmallBiz-grid-item">
+                <p>Phone/Month:</p>
+                <p id="bellSmallBizPhonePerM">$0.00</p>
+                </div>
+                <div class="bellSmallBiz-grid-item">
+                <p>Total/Month After Tax:</p>
+                <p id="bellSmallBizTotalAT">$0.00</p>
+                </div>
+                <div class="bellSmallBiz-grid-item">
+                <p>Total to spend</p>
+                <p id="bellSmallBizLeftToSpend" style="color: black;">$0.00</p>
+                </div>
+                <button onclick="getTotalsBellSmallBiz()" class="bellSmallBiz-grid-button">Get Totals</button>
+            </div>
+        </div>
+
+
+    <button onclick="bellPage()" class="bell-button">Bell</button>
+    <button onclick="virginPage()" class="virgin-button">Virgin</button>
+
+    <script src="smallBiz.js"></script>
+</body>
+</html>
