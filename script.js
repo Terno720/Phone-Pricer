@@ -1,4 +1,5 @@
 //bell line 1
+//©LucasLetourneau
 function getTotalsBell() {
     let test = document.getElementById("tester").innerText
 
