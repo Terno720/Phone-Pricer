@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 .bellSmallBiztitle{
+=======
+.bellSmallBistitle{
+>>>>>>> master
 =======
 .bellSmallBistitle{
 >>>>>>> master
@@ -10,7 +14,11 @@
     border-radius: 5px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .bellSmallBizDivide{
+=======
+.bellSmallBisDivide{
+>>>>>>> master
 =======
 .bellSmallBisDivide{
 >>>>>>> master
@@ -19,7 +27,11 @@
     color: blue;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .bellSmallBiz-total-grid{
+=======
+.bellSmallBis-total-grid{
+>>>>>>> master
 =======
 .bellSmallBis-total-grid{
 >>>>>>> master
@@ -29,17 +41,23 @@
     width: 500px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .bellSmallBiz-grid-item{
     border: 2px solid black;
     padding: 0 0 0 30px;
 }
 .bellSmallBiz-grid-button{
 =======
+=======
+>>>>>>> master
 .bellSmallBis-grid-item{
     border: 2px solid black;
     padding: 0 0 0 30px;
 }
 .bellSmallBis-grid-button{
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
     grid-column: span 2;
     padding: 5px;
@@ -49,7 +67,11 @@
     font-weight: bold;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .bellSmallBiz-button{
+=======
+.bellSmallBis-button{
+>>>>>>> master
 =======
 .bellSmallBis-button{
 >>>>>>> master
@@ -60,7 +82,11 @@
     color: white;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .bellSmallBizBox {
+=======
+.bellSmallBisBox {
+>>>>>>> master
 =======
 .bellSmallBisBox {
 >>>>>>> master
@@ -69,15 +95,21 @@
     width: 510px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .BellSmallBizFillBox{
     width: 70px;
 }
 .bellSmallBizInfoBox{
 =======
+=======
+>>>>>>> master
 .BellSmallBisFillBox{
     width: 70px;
 }
 .bellSmallBisInfoBox{
+<<<<<<< HEAD
+>>>>>>> master
+=======
 >>>>>>> master
     width: 100px;
 }
