@@ -90,8 +90,97 @@ function getTotalsbellSmallBis() {
     document.getElementById("bellSmallBisPhonePerM").innerHTML = "$" + bellSmallBisPhonePerM.toFixed(2)
     document.getElementById("bellSmallBisLeftToSpend").innerHTML = "$" + bellSmallBisTotalSpend.toFixed(2)
    
+}
+
+
+function getTotalsbellSmallBis1() {
+    let test = document.getElementById("tester").innerText
+
+    //----------------------------------------------------------
+    test = document.getElementById("tester").innerText = "stop 5"
+    //----------------------------------------------------------
+
+    let bellSmallBis1Phone = document.getElementById("bellSmallBis1Phone").value;
+    let bellSmallBis1Plan = document.getElementById("bellSmallBis1Plan").value;
+    let bellSmallBis1isc = document.getElementById("bellSmallBis1isc").value;
+    let bellSmallBis1dis = document.getElementById("bellSmallBis1dis").value;
+    let bellSmallBis1spc = document.getElementById("bellSmallBis1spc").value;
+    let bellSmallBis1Offer1 = document.getElementById("bellSmallBis1offer1").value;
+    let bellSmallBis1Offer2 = document.getElementById("bellSmallBis1offer2").value;
+    let bellSmallBis1Offer3 = document.getElementById("bellSmallBis1offer3").value;
+
+    //----------------------------------------------------------
+    test = document.getElementById("tester").innerText = "stop 6"
+    //----------------------------------------------------------
+
+    bellSmallBis1Phone = parseFloat(bellSmallBis1Phone);
+    bellSmallBis1Plan = parseFloat(bellSmallBis1Plan);
+    bellSmallBis1isc = parseFloat(bellSmallBis1isc);
+    bellSmallBis1dis = parseFloat(bellSmallBis1dis);
+    bellSmallBis1spc = parseFloat(bellSmallBis1spc);
+    bellSmallBis1Offer1 = parseFloat(bellSmallBis1Offer1);
+    bellSmallBis1Offer2 = parseFloat(bellSmallBis1Offer2);
+    bellSmallBis1Offer3 = parseFloat(bellSmallBis1Offer3);
+
+    //----------------------------------------------------------
+    test = document.getElementById("tester").innerText = "stop 7"
+    //----------------------------------------------------------
+
+    let bellSmallBis1dp60 = document.getElementById("bellSmallBis1dp60").checked;
+    let bellSmallBis1dp120 = document.getElementById("bellSmallBis1dp120").checked;
+    let bellSmallBis1dp240 = document.getElementById("bellSmallBis1dp240").checked;
+    let bellSmallBis1dp360 = document.getElementById("bellSmallBis1dp360").checked;
+    let bellSmallBis1SpendGet = document.getElementById("bellSmallBis1SpendGet").checked;
+
+    //----------------------------------------------------------
+    test = document.getElementById("tester").innerText = "stop 8"
+    //----------------------------------------------------------
+
+    let bellSmallBis1Disc60 = 0;
+    let bellSmallBis1Disc120 = 0;
+    let bellSmallBis1Disc240 = 0;
+    let bellSmallBis1Disc360 = 0;
+    let bellSmallBis1SG = 0
+    let bellSmallBis1TotalSpend = bellSmallBis1isc + bellSmallBis1dis;
+
+    if (bellSmallBis1dp60 === true) {
+        bellSmallBis1Disc60 = -2.5;
+        bellSmallBis1TotalSpend = bellSmallBis1TotalSpend - 60;
+    }
+    if (bellSmallBis1dp120 === true) {
+        bellSmallBis1Disc120 = -5;
+        bellSmallBis1TotalSpend = bellSmallBis1TotalSpend - 120;
+    }
+    if (bellSmallBis1dp240 === true) {
+        bellSmallBis1Disc240 = -10;
+        bellSmallBis1TotalSpend = bellSmallBis1TotalSpend - 240;
+    }
+    if (bellSmallBis1dp360 === true) {
+        bellSmallBis1Disc360 = -15;
+        bellSmallBis1TotalSpend = bellSmallBis1TotalSpend - 360;
+    }
+    if (bellSmallBis1SpendGet === true) {
+        bellSmallBis1SG = -4.17;
+    }
+
+    //----------------------------------------------------------
+    test = document.getElementById("tester").innerText = "stop 9"
+    //----------------------------------------------------------
+
+    var bellSmallBis1TotalBT = bellSmallBis1Phone + bellSmallBis1Plan + bellSmallBis1Disc60 + bellSmallBis1Disc120 + bellSmallBis1Disc240 + bellSmallBis1Disc360 + bellSmallBis1SG + bellSmallBis1spc + bellSmallBis1Offer1 + bellSmallBis1Offer2 + bellSmallBis1Offer3 + 0.95;
+    var bellSmallBis1TotalAT = bellSmallBis1TotalBT + (bellSmallBis1TotalBT * 0.05);
+    var bellSmallBis1PhonePerM = bellSmallBis1Phone + bellSmallBis1Disc60 + bellSmallBis1Disc120 + bellSmallBis1Disc240 + bellSmallBis1Disc360 + bellSmallBis1SG;
+    
+    test = document.getElementById("tester").innerText = "stop 5"
+
+    document.getElementById("bellSmallBis1TotalBT").innerHTML = "$" + bellSmallBis1TotalBT.toFixed(2)
+    document.getElementById("bellSmallBis1TotalAT").innerHTML = "$" + bellSmallBis1TotalAT.toFixed(2)
+    document.getElementById("bellSmallBis1PhonePerM").innerHTML = "$" + bellSmallBis1PhonePerM.toFixed(2)
+    document.getElementById("bellSmallBis1LeftToSpend").innerHTML = "$" + bellSmallBis1TotalSpend.toFixed(2)
+   
     //----------------------------------------------------------
     test = document.getElementById("tester").innerText = "Code Ran Successfully"
     //----------------------------------------------------------
     
 }
+

@@ -46,6 +46,60 @@
 .bellSmallBisInfoBox{
     width: 100px;
 }
+
+
+
+.bellSmallBis1title{
+    color: blue;
+    border: 3px dashed blue;
+    width: fit-content;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+.bellSmallBis1Divide{
+    border: 3px dashed;
+    height: 0;
+    color: blue;
+}
+.bellSmallBis1-total-grid{
+    display: grid;
+    border: 2px solid black;
+    grid-template-columns: 1fr 1fr;
+    width: 500px;
+}
+.bellSmallBis1-grid-item{
+    border: 2px solid black;
+    padding: 0 0 0 30px;
+}
+.bellSmallBis1-grid-button{
+    grid-column: span 2;
+    padding: 5px;
+    margin: 5px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+.bellSmallBis1-button{
+    background-color: blue;
+    font-weight: bold;
+    height: 40px;
+    width: 80px;
+    color: white;
+}
+.bellSmallBis1Box {
+    border: 5px solid blue;
+    padding: 10px;
+    width: 510px;
+}
+.BellSmallBis1FillBox{
+    width: 70px;
+}
+.bellSmallBis1InfoBox{
+    width: 100px;
+}
+
+
+
 .offer-grid{
     display: grid;
     border: 3px solid;
@@ -54,12 +108,6 @@
 .offer-grid-items{
     border: 3px solid greenyellow;
 }
-
-
-
-
-
-
 .bell-button{
     background-color: blue;
     font-weight: bold;
