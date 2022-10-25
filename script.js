@@ -402,7 +402,7 @@ function getTotalsVirgin() {
                 virginUPfront = virginUPfront - 50;
             }
         }else{
-            virginSG = -4.17;
+            virginSG = -2.08;
         } 
     }
 
@@ -500,7 +500,7 @@ function getTotalsVirgin() {
                 virgin2UPfront = virgin2UPfront - 50;
             }
         }else{
-            virgin2SG = -4.17;
+            virgin2SG = -2.08;
         } 
     }
 
@@ -598,7 +598,7 @@ function getTotalsVirgin() {
                 virgin3UPfront = virgin3UPfront - 50;
             }
         }else{
-            virgin3SG = -4.17;
+            virgin3SG = -2.08;
         } 
     }
 
